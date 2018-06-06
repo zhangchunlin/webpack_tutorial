@@ -1,5 +1,9 @@
 {
   "name": "demo",
+  "scripts": {
+    "dev": "webpack-dev-server --open --config webpack.config.js",
+    "build": "webpack --progress --hide-modules --config webpack.prod.config.js"
+  },
   "devDependencies": {
     "webpack": "^3.11.0",
     "webpack-cli": "^2.1.3",
