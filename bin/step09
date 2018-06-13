@@ -1,0 +1,12 @@
+#!/bin/bash -ex
+npm install --save-dev vue-loader@13.3.0 --registry=https://registry.npm.taobao.org
+npm install --save-dev vue-style-loader --registry=https://registry.npm.taobao.org
+npm install --save-dev vue-template-loader --registry=https://registry.npm.taobao.org
+npm install --save-dev vue-hot-reload-api --registry=https://registry.npm.taobao.org
+npm install --save-dev vue-template-compiler --registry=https://registry.npm.taobao.org
+npm install --save-dev babel --registry=https://registry.npm.taobao.org
+npm install --save-dev babel-loader --registry=https://registry.npm.taobao.org
+npm install --save-dev babel-core --registry=https://registry.npm.taobao.org
+npm install --save-dev babel-plugin-transform-runtime --registry=https://registry.npm.taobao.org
+npm install --save-dev babel-preset-es2015 --registry=https://registry.npm.taobao.org
+npm install --save-dev babel-runtime --registry=https://registry.npm.taobao.org
