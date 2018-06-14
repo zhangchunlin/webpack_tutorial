@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/dist";
+/******/ 	__webpack_require__.p = "/dist/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 3);
@@ -9050,12 +9050,26 @@ var render = function() {
       _vm._v(" "),
       _c("v-title", { attrs: { title: "Vue组件化" } }),
       _vm._v(" "),
-      _c("v-button", { on: { click: _vm.handleClick } }, [_vm._v("点击按钮")])
+      _c("v-button", { on: { click: _vm.handleClick } }, [_vm._v("点击按钮")]),
+      _vm._v(" "),
+      _vm._m(0)
     ],
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _c("img", {
+        staticStyle: { width: "200px" },
+        attrs: { src: __webpack_require__(18) }
+      })
+    ])
+  }
+]
 render._withStripped = true
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -9065,6 +9079,12 @@ if (false) {
     require("vue-hot-reload-api")      .rerender("data-v-44be8f10", esExports)
   }
 }
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "5951fc2b025d1fb7f4aa912568913605.jpeg";
 
 /***/ })
 /******/ ]);

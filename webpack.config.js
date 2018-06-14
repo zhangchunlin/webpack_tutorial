@@ -8,7 +8,7 @@ const config = {
     },
     output : {
         path : path.join(__dirname,'./dist'),
-        publicPath : '/dist',
+        publicPath : '/dist/',
         filename : "main.js"
     },
     module:{
@@ -36,6 +36,10 @@ const config = {
                     use: 'css-loader',
                     fallback: 'style-loader'
                 })
+            },
+            {
+                test: /\.(gif|jpeg|jpg|png|woff|svg|eot|ttf)\??.*$/,
+                loader: 'url-loader?limit=1024'
             }
         ]
     },
